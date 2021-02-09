@@ -63,7 +63,7 @@ public class AddActivity extends AppCompatActivity {
                             status+"','"+
                             edit_jumlah.getText().toString()+"','"+
                             edit_keterangan.getText().toString()+"')");
-                    Toast.makeText(getApplicationContext(), "Transaski Berhasil Disimpan", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Transaksi Berhasil Disimpan", Toast.LENGTH_LONG).show();
                     finish();
                 }
             }
